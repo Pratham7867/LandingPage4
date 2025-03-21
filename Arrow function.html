@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrow function</title>
+</head>
+<body>
+    <div class="container">
+        Tis is practice
+    </div>
+    <script>
+       let Greet=()=> {
+            console.log("Good morning");
+        }
+
+        // let sum=(a,b)=>{
+        //     return a+b;
+        // };
+        
+        let sum2=(a,b)=> a+b;
+        // function Greet() {
+        //     console.log("Good morning");
+        // }
+         Greet();
+            setTimeout(()=>{
+                console.log("Madara Uchiha");
+            },3000)
+            let ch1={
+                name :["Pratham","Naruto","Sasuke"],
+                speak(){
+                    this.name.forEach((Student)=>
+                    {
+                        console.log("get in class"+Student);
+                    });
+                }
+            }
+            ch1.speak();
+            // lexical 'this'
+    </script>
+</body>
+</html>
